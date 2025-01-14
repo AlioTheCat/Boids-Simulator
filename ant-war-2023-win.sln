@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL2_gfx", "SDL2_gfx\SDL2_gfx.vcxproj", "{CF6D411A-B1F8-44C9-9582-63947065B2EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ant-war", "ant-war\ant-war.vcxproj", "{4B370052-AC5A-4B71-87F1-AD5713CA40B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF6D411A-B1F8-44C9-9582-63947065B2EA} = {CF6D411A-B1F8-44C9-9582-63947065B2EA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF6D411A-B1F8-44C9-9582-63947065B2EA}.Debug|x64.ActiveCfg = Debug|x64
+		{CF6D411A-B1F8-44C9-9582-63947065B2EA}.Debug|x64.Build.0 = Debug|x64
+		{CF6D411A-B1F8-44C9-9582-63947065B2EA}.Release|x64.ActiveCfg = Release|x64
+		{CF6D411A-B1F8-44C9-9582-63947065B2EA}.Release|x64.Build.0 = Release|x64
+		{4B370052-AC5A-4B71-87F1-AD5713CA40B7}.Debug|x64.ActiveCfg = Debug|x64
+		{4B370052-AC5A-4B71-87F1-AD5713CA40B7}.Debug|x64.Build.0 = Debug|x64
+		{4B370052-AC5A-4B71-87F1-AD5713CA40B7}.Release|x64.ActiveCfg = Release|x64
+		{4B370052-AC5A-4B71-87F1-AD5713CA40B7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79DED1BF-3DCD-4FA2-B742-23BF6304F276}
+	EndGlobalSection
+EndGlobal
