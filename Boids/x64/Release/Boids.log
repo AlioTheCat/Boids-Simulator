@@ -1,0 +1,15 @@
+﻿Boids.obj : error LNK2001: unresolved external symbol SDL_Log
+Boids.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+Boids.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+Boids.obj : error LNK2001: unresolved external symbol SDL_Init
+Boids.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+Boids.obj : error LNK2001: unresolved external symbol SDL_GetError
+Boids.obj : error LNK2001: unresolved external symbol SDL_Quit
+Boids.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+Boids.obj : error LNK2001: unresolved external symbol SDL_RenderDrawPoint
+Boids.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+Boids.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+Boids.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+Boids.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\alios\source\repos\Boids\x64\Release\Boids.exe : fatal error LNK1120: 14 unresolved externals

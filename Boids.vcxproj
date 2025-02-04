@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\alios\source\repos\Boids\SDL2-2.28.5\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\alios\source\repos\Boids\SDL2-2.28.5\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\alios\source\repos\Boids\SDL3_image-3.2.0\include;C:\Users\alios\source\repos\Boids\SDL3-3.2.0\include;C:\Users\alios\source\repos\Boids\SDL3_image\include;C:\Users\alios\source\repos\Boids\SDL2-2.28.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\alios\source\repos\Boids\SDL3-3.2.0\lib\x64;C:\Users\alios\source\repos\Boids\SDL3_image-3.2.0\lib\x64;C:\Users\alios\source\repos\Boids\SDL3_image\lib\x64;C:\Users\alios\source\repos\Boids\SDL2-2.28.5\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -132,7 +132,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Boids.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boids.h" />
+    <ClInclude Include="Chainlist.h" />
+    <ClInclude Include="vec2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

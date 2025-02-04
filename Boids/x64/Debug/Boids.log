@@ -1,1 +1,3 @@
-﻿  Boids.vcxproj -> C:\Users\alios\source\repos\Boids\x64\Debug\Boids.exe
+﻿  main.cpp
+C:\Users\alios\source\repos\Boids\main.cpp(168,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Boids.vcxproj -> C:\Users\alios\source\repos\Boids\x64\Debug\Boids.exe
